@@ -1,5 +1,5 @@
 
-var f = require("fs");
+var fs = require("fs");
 console.log("\nAbriendo el archivo");
 
 var content = fs.readFileSync("el_quijote.txt");
